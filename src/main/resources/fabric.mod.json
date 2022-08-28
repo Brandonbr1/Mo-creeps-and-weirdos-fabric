@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "willywonka",
+  "id": "mcawfabric",
   "version": "${version}",
 
-  "name": "Willy wonka mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Mo` creeos and weirdos Fabric",
+  "description": "the mo creeop and weirdos mod ported over to fabric 1.18.2",
   "authors": [
     "Brandonbr1 aka jerios"
   ],
@@ -13,17 +13,17 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "ARR",
+  "icon": "assets/mcawfabric/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.jerios.willywonka.MainMod"
+      "com.jerios.mcawfabric.MainMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mcawfabric.mixins.json"
   ],
 
   "depends": {
