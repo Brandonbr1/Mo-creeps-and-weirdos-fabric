@@ -9,6 +9,9 @@ import net.minecraft.util.registry.Registry;
 
 public class RegistryItem {
 
+    public static final Item RAM16K = registerItem("ram16k",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     public static final Item MONEY = registerItem("money",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
@@ -17,7 +20,7 @@ public class RegistryItem {
     }
 
     public static void registerModItems() {
-        MainMod.LOGGER.info("Regestered all items ");
+        MainMod.LOGGER.info("Regestered all items");
     }
 
 
